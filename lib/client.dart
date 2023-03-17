@@ -17,5 +17,5 @@
 ///         print(error);
 ///       }
 ///     }
-export 'src/client.dart' show call, Fault, Base64Value, HttpPost;
+export 'src/client.dart' show call, Fault, Base64Value, HttpPost, convertMethodCall, decodeResponse;
 export 'src/converter.dart' hide getValueContent, encode, decode;
